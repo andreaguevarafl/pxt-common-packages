@@ -240,7 +240,8 @@ namespace color {
             case "pink":
                 return Colors.Pink;
             default:
-                return parseInt(color) || 0;
+                return 
+                (color) || 0;
         }
     }
 }
